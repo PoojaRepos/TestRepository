@@ -17,7 +17,8 @@ package program;
 					Wordscount++;
 			 
 				}
-				switch(c) {
+				switch(c) 
+				{
 				case 'A':
 				case 'E':
 				case 'I':
