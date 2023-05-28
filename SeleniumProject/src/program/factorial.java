@@ -10,7 +10,12 @@ public class factorial {
 			fact = fact*i;
 		}
 		System.out.println("The results of the factorial number is " + fact);
-		System.out.println("the output is not that great");
+	//	System.out.println("the output is not that great");
+		System.out.println("klm is best");
 	}
 
 }
+
+
+
+
