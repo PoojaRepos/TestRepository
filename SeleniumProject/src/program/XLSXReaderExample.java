@@ -19,12 +19,12 @@ FileInputStream fis = new FileInputStream(file);   //obtaining bytes from the fi
 XSSFWorkbook wb = new XSSFWorkbook(fis);   
 XSSFSheet sheet = wb.getSheetAt(0);     //creating a Sheet object to retrieve object  
 Iterator<Row> itr = sheet.iterator();    //iterating over excel file  
-while (itr.hasNext())                 
+while (itr.hasNext())    //row iterator              
 {  
 Row row = itr.next();  
 Iterator<Cell> cellIterator = row.cellIterator();   //iterating over each column  
-while (cellIterator.hasNext())   
-{  
+  while (cellIterator.hasNext())      //cell iterator
+    {  
 Cell cell = cellIterator.next();  
 switch (cell. getCellTypeEnum())               
 {  
