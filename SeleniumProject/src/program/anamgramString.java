@@ -6,6 +6,10 @@ public class anamgramString {
 
 		
 		System.out.println("output is printed");
+		System.out.println("output is printed");
+	
+	
 	}
+	
 
 }

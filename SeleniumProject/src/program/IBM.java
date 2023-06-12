@@ -12,11 +12,11 @@ public class IBM {
 		String[] words = str.split(" ");
 		desired = words[2];// IMB
 		System.out.println(desired);
-		for(int i=0; i<=str.length();i++){
-			
-		  
-		}
-		
+//		for(int i=0; i<=str.length();i++){
+//			
+//		  
+//		}
+//		
 		
 		
 	}
