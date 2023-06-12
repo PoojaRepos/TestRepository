@@ -10,6 +10,7 @@ public class FileCount {
     public static void main(String[] args) {
         String directoryPath = "C:\\Users\\DELL\\Desktop\\New folder (2)"; // Replace with the actual directory path
 
+        
         int xlsCount = 0;
         int txtCount = 0;
 
